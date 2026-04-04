@@ -1,123 +1,95 @@
 # PlotLedger
+*The Future of Parcel Intelligence*
 
-The Future of Parcel Intelligence
+**PlotLedger** is an open-source AI-powered platform that aggregates, analyzes, and visualizes **large land parcels (9+ acres)** across the United States. It connects **ownership records, sale history, zoning classifications, permits, and special privileges**, providing a comprehensive view for developers, planners, researchers, and enthusiasts.
 
-PlotLedger is an open-source AI-powered platform that aggregates, analyzes, and visualizes large land parcels (9+ acres) across the United States. It connects ownership records, sale history, zoning classifications, permits, and special privileges, providing a single, comprehensive view for developers, planners, researchers, and enthusiasts.
+---
 
-Features
+## Features
 
-National Parcel Directory
+- **National Parcel Directory**
+  Identify all parcels ≥9 acres in every U.S. state and merge contiguous parcels owned by the same entity.
 
-Identify all parcels ≥9 acres in every U.S. state.
+- **Ownership & Sale History**
+  Track current and historical owners, past sales, transaction dates, and prices.
 
-Merge contiguous parcels owned by the same entity.
+- **Zoning & Special Privileges**
+  Compare parcels against local zoning laws. Detect special allowances, variances, density bonuses, and conditional use approvals.
 
-Ownership & Sale History
+- **Permits & Applications**
+  Connect each parcel to historical permits and active applications. Flag deviations from standard zoning rules.
 
-Track current and historical owners.
+- **AI Analysis**
+  Automatically parse zoning codes and permit text. Score parcels for development potential and legal deviations. Predict opportunities for future permits and special privileges.
 
-View past sales, transaction dates, and prices.
+- **Interactive Map Visualization**
+  Explore parcels with Mapbox or Leaflet. Color-code by zoning, privilege tier, or development score. Search and filter by state, county, owner, or parcel size.
 
-Zoning & Special Privileges
+- **State-by-State Modular Design**
+  Each state is a module: easily add, update, or expand. Supports future global expansion.
 
-Compare parcels against local zoning laws.
+---
 
-Detect special allowances, variances, density bonuses, and conditional use approvals.
+## Installation
 
-Permits & Applications
+To set up PlotLedger locally:
 
-Connect each parcel to historical permits and active applications.
+1. Clone the repository:
+   git clone https://codeberg.org/RoxanneA/PlotLedger.git
+   cd PlotLedger
 
-Flag deviations from standard zoning rules.
+2. Install Python dependencies:
+   pip install -r requirements.txt
 
-AI Analysis
+3. Initialize the database (PostGIS recommended):
+   python initialize_db.py
 
-Automatically parse zoning codes and permit text.
+4. Start the backend server:
+   python app.py
 
-Score parcels for development potential and legal deviations.
+5. Open the frontend in your browser (default: http://localhost:3000).
 
-Predict opportunities for future permits and special privileges.
+---
 
-Interactive Map Visualization
+## Usage
 
-Explore parcels with Mapbox/Leaflet.
+1. Load parcel data for your state using the GIS ingestion scripts.
+2. Merge contiguous parcels and verify ownership data.
+3. Run AI analysis to detect zoning deviations, special privileges, and permits.
+4. Visualize parcels in the interactive map.
+5. Export parcel reports or share datasets with collaborators.
 
-Color-code by zoning, privilege tier, or development score.
+---
 
-Search and filter by state, county, owner, or parcel size.
+## Data Sources
 
-State-by-State Modular Design
+- County GIS portals for parcel boundaries  
+- County property appraisers for ownership and sale history  
+- Municipal permit and zoning portals  
+- Public legal records for special district and variance documentation  
 
-Each state is a module: easily add, update, or expand.
+> **Note:** Ensure compliance with local open-data licenses. Personal contact information is not included to protect privacy.
 
-Supports future global expansion.
+---
 
-Installation
-# Clone the repository
-git clone https://codeberg.org/RoxanneA/PlotLedger.git
-cd PlotLedger
+## Contributing
 
-# Install dependencies
-pip install -r requirements.txt
+PlotLedger is fully open-source under the **GNU Affero General Public License v3.0+ (AGPL-3.0+)**. Contributions are welcome:
 
-# Initialize database (PostGIS recommended)
-python initialize_db.py
+- Add new county or state datasets  
+- Improve AI algorithms for zoning analysis  
+- Enhance frontend map features  
+- Add predictive scoring models  
 
-# Start backend server
-python app.py
+All contributions must include attribution to **Roxanne Ardary** and [roxanneardary.com](https://www.roxanneardary.com/).
 
-# Open frontend in browser
-# Default: http://localhost:3000
-Usage
+---
 
-Load parcel data for your state via the GIS ingestion scripts.
+## License
 
-Merge contiguous parcels and verify ownership data.
+This project is licensed under the **GNU Affero General Public License v3.0+ (AGPL-3.0+)**. See the LICENSE file for full details.
 
-Run AI analysis to detect zoning deviations, special privileges, and permits.
+---
 
-Visualize parcels in the interactive map.
-
-Export parcel reports or share datasets with collaborators.
-
-Data Sources
-
-County GIS portals for parcel boundaries
-
-County property appraisers for ownership and sale history
-
-Municipal permit and zoning portals
-
-Public legal records for special district and variance documentation
-
-Note: Ensure compliance with local open-data licenses. Personal contact info is not included to protect privacy.
-
-Contributing
-
-PlotLedger is fully open-source under the GNU Affero General Public License v3.0+ (AGPL-3.0+). Contributions are welcome:
-
-Add new county/state datasets
-
-Improve AI algorithms for zoning analysis
-
-Enhance frontend map features
-
-Add predictive scoring models
-
-Please submit pull requests and issues via Codeberg.
-
-License
-
-GNU Affero General Public License v3.0+
-See LICENSE
- for full details.
-
-Contact & Community
-
-Project repository: Codeberg/PlotLedger
-
-Join discussions, share datasets, and contribute improvements.
-
-Follow updates on AI-powered parcel analysis and national zoning insights.
-
-PlotLedger — The Future of Parcel Intelligence.
+**PlotLedger** — *The Future of Parcel Intelligence.*  
+Created by **Roxanne Ardary** | [roxanneardary.com](https://www.roxanneardary.com/)
