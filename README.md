@@ -85,13 +85,18 @@ All contributions must include attribution to **Roxanne Ardary** and [roxanneard
 
 ---
 
-# License - PlotLedger
+## License & Notice Requirements
 
-This repository is licensed under the **GNU Affero General Public License v3.0 or later (AGPL-3.0+)**.
+PlotLedger is released under the **GNU Affero General Public License v3.0 or later (AGPL-3.0+)**.   
+By contributing to this project, you agree that your contributions will also be released under this license.
 
-**Key Points:**  
-- You are free to use, modify, and distribute the code.  
-- All redistributions, forks, and derivative works or network-deployed versions must also be licensed under AGPL-3.0+ and provide attribution to **Roxanne Ardary** and **[roxanneardary.com](https://www.roxanneardary.com/)** as required under Section 7 of the license.  
-- The software is provided “as is,” without warranty of any kind.
+Please note the following:
 
-For the full license text, see [GNU AGPL-3.0 License](https://www.gnu.org/licenses/agpl-3.0.html).
+- All contributions must comply with the **AGPL-3.0+** terms.  
+- Under **Section 7** of the license, all redistributions, forks, and derivative works must preserve attribution to:  
+  **Roxanne Ardary** and **[roxanneardary.com](https://www.roxanneardary.com/)**.
+- The project's **notice.md** file tracks attribution requirements and contributor acknowledgments.   
+  Any update that adds new contributors or modifies attribution should also update `notice.md`. 
+- When submitting a pull request, ensure that any new files maintain the attribution headers where applicable.
+
+For full legal details, please refer to the AGPL-3.0+ license and the project's `notice.md` file.
