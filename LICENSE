@@ -1,60 +1,15 @@
-GNU AFFERO GENERAL PUBLIC LICENSE
-Version 3, 19 November 2007
+# License - PlotLedger
 
-Copyright (C) 2026 Roxanne Ardary
-Everyone is permitted to copy and distribute verbatim copies
-of this license document, but changing it is not allowed.
+This repository is licensed under the **GNU Affero General Public License v3.0 or later (AGPL-3.0+)**.
 
----
+**Key Points:**  
+- You are free to use, modify, and distribute the code.  
+- All redistributions, forks, and derivative works or network-deployed versions must also be licensed under AGPL-3.0+ and provide attribution to **Roxanne Ardary** and **[roxanneardary.com](https://www.roxanneardary.com/)** as required under Section 7 of the license.  
+- The software is provided “as is,” without warranty of any kind.
 
-### Preamble
-
-The GNU Affero General Public License is a free, copyleft license for software
-and other kinds of works, specifically designed to ensure cooperation with the
-community in the case of network server software.
-
-This program is distributed in the hope that it will be useful, but
-WITHOUT ANY WARRANTY; without even the implied warranty of MERCHANTABILITY
-or FITNESS FOR A PARTICULAR PURPOSE. See the GNU Affero General Public License
-for more details.
-
-You should have received a copy of the GNU Affero General Public License
-along with this program. If not, see <https://www.gnu.org/licenses/>.
+For the full license text, see [GNU AGPL-3.0 License](https://www.gnu.org/licenses/agpl-3.0.html).
 
 ---
-
-### Terms and Conditions
-
-1. **Source Code**
-   - The source code must be made available when distributing the software.
-
-2. **Modification**
-   - You may modify your copy of the software or any portion of it, and
-     copy and distribute such modifications under the terms of Section 4.
-
-3. **Propagation**
-   - Any covered work you convey must be licensed as a whole under the terms
-     of this license, ensuring all recipients receive the same rights.
-
-4. **Conveying Non-Source Forms**
-   - You must provide access to the source code when distributing non-source forms,
-     or provide a network-accessible version for AGPL-licensed network use.
-
-5. **License Notices**
-   - All copies, modified or unmodified, must include this license notice and
-     attribution to **Roxanne Ardary** and [roxanneardary.com](https://www.roxanneardary.com/).
-
-6. **No Warranty**
-   - The program is provided without any warranty. The user assumes all risks
-     associated with using, modifying, or distributing the software.
-
-7. **Attribution**
-   - All uses, distributions, and derivative works must provide attribution to
-     **Roxanne Ardary** and [roxanneardary.com](https://www.roxanneardary.com/).
-
----
-
-**PlotLedger** — *The Future of Parcel Intelligence.*
 
 GNU AFFERO GENERAL PUBLIC LICENSE
 Version 3, 19 November 2007
