@@ -68,3 +68,6 @@ If you find a bug, data inconsistency, or have a feature request:
 ---
 
 **PlotLedger** — *The Future of Parcel Intelligence.*
+
+**Open Arsenal Hub**  
+[https://codeberg.org/RoxanneA/Open_Arsenal](https://codeberg.org/RoxanneA/Open_Arsenal)
