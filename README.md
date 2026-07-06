@@ -98,6 +98,7 @@ All contributions must include attribution to **Roxanne Ardary** and [roxanneard
 - **Specification Branding License (SBL)**
   - Attribution-free commercial deployment
   - Pricing based on scale, usage, and deployment scope
+  - [https://roxanneardary.com/plotledger/](https://roxanneardary.com/plotledger/)
 
 ---
 
