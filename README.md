@@ -1,5 +1,6 @@
 # PlotLedger Specification
 **The Future of Parcel Intelligence**
+- HTML Mirror: [https://roxanneardary.com/plotledger-specification/](https://roxanneardary.com/plotledger-specification/)
 
 ---
 
